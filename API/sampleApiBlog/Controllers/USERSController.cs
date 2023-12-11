@@ -79,7 +79,7 @@ namespace sampleApiBlog.Controllers
 
         [HttpPost]
         [Route("RemoveUser")]
-        public ActionResult RemoveUser(long id)
+        public ActionResult RemoveUser([FromQuery]long id)
         {
             try
             {
